@@ -6,4 +6,9 @@ class Dinosaur < ApplicationRecord
     def is_baby?
         age < 3
     end
+    
+    def say_hi
+        puts "Hi there!"
+    end
+    
 end
